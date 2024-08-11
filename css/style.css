@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.color_white{
+    color: white;
+}
+
+.width_img{
+    width: 300px;
+}
+
+.caroul_div{
+    width: 300px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    position: relative;
+}
+
+
+
+footer{
+    background-color: rgb(255,190,10);
+    font-size: 20px;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+.main_class{
+    margin-bottom: 20px;
+}
+.footer_title{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2em;
+    color: black;
+}
