@@ -4,24 +4,6 @@ body{
     font-family: sans-serif;
     box-sizing: border-box;
 }
-.color_white{
-    color: white;
-    font-size: 20px;
-}
-
-.width_img{
-    width: 300px;
-}
-
-.caroul_div{
-    width: 300px;
-    overflow: hidden;
-    border: 2px solid #ccc;
-    position: relative;
-}
-
-
-
 footer{
     background-color: rgb(255,190,10);
     font-size: 20px;
@@ -32,6 +14,35 @@ footer{
 li{
     list-style: none;
 }
+.color_white{
+    color: white;
+    font-size: 20px;
+}
+
+.width_img{
+    width: 300px;
+}
+.title_main{
+    font-size: 3em;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    text-shadow: 20px 10px 5px black;
+}
+
+/* main */
+.caroul_div{
+    width: 300px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    position: relative;
+}
+
+
+
+
+
 .main_class{
     margin-bottom: 20px;
 }
@@ -42,6 +53,9 @@ li{
     font-size: 2em;
     color: black;
 }
+
+
+
 
 
 /* Gastronomia */
@@ -86,4 +100,58 @@ li{
     .disabled_flex{
         display: none;
     }
+}
+
+/* Actividades y Eventos */
+
+.img_act_events{
+    width: 100%;
+    background: url("../img/actividades_eventos/multimedia.grande.94faea66e16223d5.ZmFtaWxpYXMtanVqZWFzLWNlbGVicmFfOTk4NDg0X2dyYW5kZS53ZWJw.webp");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.row{
+    justify-content: center;
+}
+
+
+/* Costumbres y cultura */
+
+.cultural_container{
+    background: url("../img/cultura_costumbres/DSC_8314.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 900px;
+}
+.costumbres_container{
+    background: url("../img/cultura_costumbres/fotojet-2022-10-29t105738824jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 900px;
+}
+.middle_container{
+    width: 100%;
+    background: rgb(255,190,10);
+    height: 100px;
+}
+.main_cultural{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-shadow: 0px 2px 2px black;
+}
+.subtitle_cultural_activities{
+    font-size: 100px;
+    padding: 15px 40px;
+    text-shadow: 0px 10px 5px black;
 }
