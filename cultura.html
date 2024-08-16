@@ -12,7 +12,7 @@
     <header class="navbar_class">
         <nav class="navbar navbar-expand-lg bg-body-tertiary ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#" disabled>Somos Jujuy</a>
+              <a class="navbar-brand" href="index.html" >Somos Jujuy</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -26,7 +26,7 @@
                       Puna
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Atractivos Geograficos</a></li>
+                      <li><a class="dropdown-item" href="geograficos_actractivos.html">Atractivos Geograficos</a></li>
                       <li><a class="dropdown-item" href="cultura.html">Costumbres y Cultura</a></li>
                       <li><a class="dropdown-item" href="actividades_eventos.html">Actividades y Eventos</a></li>
                       <li><a class="dropdown-item" href="gastronomia.html">Gastronomia</a></li>
@@ -43,20 +43,90 @@
     </header>
     <!-- main -->
     <main>
-        <div class="cultural_container">
-            <h2 class="color_white subtitle_cultural_activities">Culturas</h2>
+        <div class="d-flex flex-wrap justify-content-center   cultural_container">
+          <div>  
+          <h2 class="color_white subtitle_cultural_activities">Culturas</h2>
+          <p class="color_white text_cult_act shadow_letter">La cultura jujeña, perteneciente a la provincia de Jujuy en el noroeste de Argentina, es rica en tradiciones y costumbres que reflejan una profunda herencia indígena, mestiza y española. </p>
+            <div>
+              <h2 class="color_white text_cult_act">Musica y Danzas</h2>
+              <div class="d-flex flex-wrap justify-content-center align-items-center">
+                <div class="card text-bg-dark m-3 card_img_cult ">
+                  <img src="img/cultura_costumbres/carnaval.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Carnavalito</h5>
+                  </div>
+                </div>
+                <div class="card text-bg-dark m-3 card_img_cult ">
+                  <img src="img/cultura_costumbres/chacarera.jpeg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Chacarera</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div>
+              <h2 class="color_white text_cult_act">Artesanias</h2>
+              <div class="d-flex flex-wrap justify-content-center">
+              <div class="card text-bg-dark m-3 card_img_cult">
+                <img src="img/cultura_costumbres/artesania.jpg" class="card-img" alt="...">
+            </div>
+              </div>
+            </div>
+            <div>
+              <div>
+              <h2 class="color_white text_cult_act">idioma y Religion</h2> 
+              <div class="d-flex flex-wrap justify-content-center ">
+              <div class="card text-bg-dark m-3 card_img_cult">
+                <img src="img/cultura_costumbres/kechua.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+            </div>
+            </div>
         </div>
         <div class="middle_container">
             <h2 class=" main_cultural"><span style="color: black;font-style: italic;font-weight: 700;">Somos</span> Juuy</h2>
         </div>
         <div class="costumbres_container">
-            <h2 class="color_white subtitle_cultural_activities">Costumbres</h2>
-            <!-- <h2>Costumbres</h2> -->
+            <h2 class="color_white subtitle_cultural_activities subtitle_min_celular">Costumbres</h2>
+            <!-- acordion -->
+            <div class="accordion accordion-flush acordion_cult" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    El Carnaval de Jujuy
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Es una de las festividades más importantes y se celebra con gran entusiasmo. Durante el Carnaval, los jujeños participan en desfiles, bailes y rituales que mezclan tradiciones indígenas y católicas. Uno de los momentos clave es el desentierro del diablo, una figura simbólica que representa la liberación de las energías y el inicio de la celebración. Al finalizar el Carnaval, se realiza el entierro del diablo, simbolizando el fin de la fiesta y el retorno a la vida cotidiana.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    La Pachamama
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">La ceremonia de la Pachamama, que se celebra en agosto, es una de las costumbres más antiguas y respetadas. Se realiza una ofrenda a la Madre Tierra, agradeciendo por los frutos y la protección brindada durante el año. Durante la ceremonia, se cava un pozo en la tierra donde se colocan ofrendas como alimentos, hojas de coca, bebidas, y otros productos de la tierra, mientras se pide por la fertilidad y la prosperidad.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    La Chaya
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Durante el Carnaval y otras festividades, es común la práctica de la chaya, que consiste en arrojarse harina, albahaca, y agua perfumada entre los participantes, simbolizando la purificación y la alegría compartida. Es una costumbre muy arraigada en las celebraciones jujeñas.</div>
+                </div>
+              </div>
+            </div>
         </div>
     </main>
     <!-- footer -->
     <footer>
-        <div class="d-flex align-items-center justify-content-around">
+        <div class="d-flex flex-wrap align-items-center justify-content-around">
             <div>
                 <h2 class="footer_title">Somos<b class="color_white">Jujuy</b></h2>
             </div>
