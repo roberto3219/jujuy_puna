@@ -45,8 +45,22 @@ li{
     border: 2px solid #ccc;
     position: relative;
 }
+.form_searc_footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search_input{
+    border: none;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
+.input_search{
+    border: none;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
 
+}
 
 .main_class{
     margin-bottom: 20px;
@@ -116,7 +130,7 @@ li{
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 1000px;
 }
 .row{
     align-items: center;
@@ -132,7 +146,7 @@ li{
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 1000px;
+   
 }
 .costumbres_container{
     background: url("../img/cultura_costumbres/fotojet-2022-10-29t105738824jpg.webp");
@@ -141,7 +155,7 @@ li{
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 500px;
+    
 }
 .middle_container{
     width: 100%;
@@ -168,7 +182,7 @@ li{
     text-shadow: 0px 0px 10px black;
 }
 .card_img_cult{
-    width: 400px;
+    width: 300px;
 }
 .text_cult_act_parrafo{
     font-size: 20px;
@@ -178,28 +192,7 @@ li{
 .acordion_cult{
     max-width: 1000px;
 }
-@media (max-width:1300px){
-    .text_cult_act{
-        width: 100%;
-    }
-}
-@media (max-width:900px){
-    .card_img_cult{
-        width: 70%;
-    }
-    .cultural_container{
-        height: 1300px;
-    }
-    .subtitle_min_celular{
-        font-size: 50px;
-    }
-}
 
-@media (max-width:600px){
-    svg, .map_container h2{
-        display: none;
-    }
-}
 /* atractivos geograficos */
 
 .img_geografico{
@@ -210,6 +203,15 @@ li{
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 20px;
+}
+.photo_gallery{
+    
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px black;
+}
+.img_gallery{
+    margin: 0;
+    height: 120px;
 }
 
 .bi-info-circle-fill{
@@ -232,4 +234,93 @@ li{
 .map_container :hover{
     fill: rgb(5, 5, 5);
     
+}
+.inform_soport_subtitle{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+.form_support{
+    margin: 20px;
+}
+.input_form_support{
+    display: block;
+    width: 100%;
+    padding: 5px 15px;
+    font-size: 13px;
+    border: 1px solid rgb(195, 191, 191) ;
+    border-radius: 4px;
+}
+.tags_support_form{
+    font-size: 12px;
+    margin: 8px 0;
+    font-weight: 700;
+}
+.form_support h6{
+    margin-bottom: 40px;
+    width: 100%;
+}
+.container_form_input{
+    margin: 20px 0;
+    width: 100%;
+}
+.form_container_main{
+    width: 100%;
+}
+.label_support_form{
+    width: 100%;
+}
+.buttom_form_support{
+    background: rgb(254, 181, 10);
+    border: none;
+    border-radius: 3px;
+    padding: 0px 30px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.text_buttom_form{
+    color: aliceblue;
+    font-size: 14px;
+    padding: 0;
+    font-weight: 700;
+}
+.enlace_form_div{
+    color: orange;
+    text-decoration: none;
+    font-weight: 500;
+}
+.textarea_form_input{
+    height: 100px;
+}
+@media (max-width:1300px){
+    .text_cult_act{
+        width: 100%;
+    }
+}
+@media (min-width:900px){
+    .card_img_cult{
+        width: 500px;
+    }
+    .gallery_photo_as{
+        width: 800px;
+    }
+    .cultural_container{
+        height: 100%;
+    }
+    .subtitle_min_celular{
+        font-size: 50px;
+    }
+    .label_support_form{
+        width:600px;
+    }
+}
+
+@media (max-width:600px){
+    svg, .map_container h2{
+        display: none;
+    }
+    .cultural_container{
+        height: 100%;
+    }
 }
